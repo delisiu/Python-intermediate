@@ -33,3 +33,15 @@
 #     Powtórz operację dodawania i odejmowania od y, ale tym razem dodaj i odejmij wartość 1234567890
 #     Sprawdź identyfikatory zmiennych x i y
 # (identyfikatory powinny być różne, tzn. optymalizator nie rozpoznał, że zmienne mają nadal te same wartości)
+
+a = b = c = 10
+
+print("a =",a,'id a =',id(a))
+print("b =",b,'id b =',id(b))
+print("c =",c,'id c =',id(c))
+
+a = 30
+
+print("\na =",a,'id a =',id(a))
+print("b =",b,'id b =',id(b))
+print("c =",c,'id c =',id(c))
